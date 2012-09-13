@@ -11,7 +11,7 @@
       value = this.value;
       if (output[name] == null) {
         return output[name] = value;
-      } else if (_.isArray(output[name])) {
+      } else if ($.isArray(output[name])) {
         return output[name].push(value);
       } else {
         return output[name] = [output[name], value];

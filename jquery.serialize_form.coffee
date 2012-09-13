@@ -7,7 +7,7 @@ $.fn.serialize_form = ->
 
         unless output[name]?
             output[name] = value
-        else if _.isArray output[name]
+        else if $.isArray output[name]
             output[name].push value
         else
             output[name] = [output[name], value]
