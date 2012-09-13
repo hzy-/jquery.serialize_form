@@ -24,3 +24,5 @@ console.log ($ '#my_form').serialize_form()
 ### Result
 
 ![](http://f.cl.ly/items/2a1I2G1t2i3f2W0d3k3i/Screen%20Shot%202012-09-13%20at%206.30.31%20PM.png)
+
+[The jsFiddle of this example can be seen here](http://jsfiddle.net/SUGPc/) 
